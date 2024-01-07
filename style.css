@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.huskii {
+    background-image: url(/img/HUSKII_BANNER.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.huskii-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.huskii-header li {
+    display: inline-block;
+}
+
+.switcher {
+    display: flex;
+}
