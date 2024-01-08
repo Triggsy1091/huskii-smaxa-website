@@ -11,14 +11,16 @@ li {
 }
 
 a {
-    color: #0060B6;
+    color: #FFF;
+    font-size: 2rem;
+    padding-inline: 1rem;
     text-decoration: none;
 }
 
 a:hover {
-    color:#00A0C6; 
-    text-decoration:none; 
-    cursor:pointer;  
+    color: #00A0C6;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .huskii {
@@ -28,6 +30,7 @@ a:hover {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 img {
@@ -46,4 +49,44 @@ img {
 
 .switcher {
     display: flex;
+}
+
+.switcher p {
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.track-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+iframe {
+    width: calc(20% - 12px);
+    border-radius: 12px;
+    margin: 0 10px;
+    opacity: 0; /* Set initial opacity to 0 */
+    margin-bottom: 2rem;
+    animation: fadeIn 3s forwards;
+    animation-delay: 0.5s;
+}
+
+.fade-in {
+    opacity: 0.9;
+    margin-bottom: 2rem;
+    animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 0.8; }
+}
+
+.wrapper {
+    width: max-content;
 }

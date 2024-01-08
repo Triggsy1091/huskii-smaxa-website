@@ -1,0 +1,10 @@
+Huskii / SmaXa switch top left
+Nav bar changes content on screen
+nav bar content:
+    Home
+        Latest Release - carousel
+        Bio
+    Discography
+        all songs (per artist) - carousel
+    Listen
+        populates imgs of social media with links to artists page
